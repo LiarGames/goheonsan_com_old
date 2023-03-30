@@ -1,0 +1,11 @@
+{
+    "name": "root/go2",
+    "autoload": {
+        "psr-4": {
+            "Root\\Go2\\": "src/"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.6"
+    }
+}
