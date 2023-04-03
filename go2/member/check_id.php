@@ -38,7 +38,7 @@
 		$mail->Port = 465; // email 보낼때 사용할 포트를 지정
 		$mail->SMTPSecure = "ssl"; // SSL을 사용함
 		$mail->Username = "liargames2002@gmail.com"; // Gmail 계정
-		$mail->Password = "hbqxwsouxhqzwomg"; // 패스워드
+		$mail->Password = "###########################################"; // 패스워드
 		$mail->SetFrom('liargames2002@gmail.com'); // 보내는 사람 email 주소와 표시될 이름 (표시될 이름은 생략가능)
 		$mail->AddAddress($id.'@ushs.hs.kr'); // 받을 사람 email 주소와 표시될 이름 (표시될 이름은 생략가능)
 		$mail->Subject = '고헌산닷컴 인증번호'; // 메일 제목
